@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://m.media-amazon.com/images/I/31DhmKeNrWL._AC_UF1000,1000_QL80_.jpg');  
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+.counter-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(49, 14, 154, 0.2);
+}
+.counter {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #901a53;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d3460a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(213, 201, 201, 0.2);
+}
+.button:active {
+    background-color: #0b87da;
+ }
